@@ -5,10 +5,13 @@ from environment import Environment
 
 from taxi_feature_extractor import TaxiFeatureExtractor
 from blackjack_feature_extractor import BlackjackFeatureExtractor
-
+from Cliffwalking_Feature_Extractor import CliffWalkingFeatureExtractor
+from Frozenlake_Feature_Extractor import FrozenLakeFeatureExtractor
 feature_extractors_dict = {
   "Blackjack-v1": BlackjackFeatureExtractor,
-  "Taxi-v3": TaxiFeatureExtractor
+  "Taxi-v3": TaxiFeatureExtractor,
+  "CliffWalking-v0": CliffWalkingFeatureExtractor,
+  "FrozenLake-v1": FrozenLakeFeatureExtractor
 }
 
 class QLearningAgentLinear:

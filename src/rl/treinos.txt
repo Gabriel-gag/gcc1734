@@ -1,0 +1,35 @@
+Blackjack-V1 
+python tql_train.py --env_name Blackjack-v1 --learning_rate 0.3 --gamma 0.7
+
+python tql_test.py --env_name Blackjack-v1
+
+CliffWalking-v0
+python tql_train.py --env_name CliffWalking-v0 --learning_rate 0.01 --gamma 0.9
+
+python tql_test.py --env_name CliffWalking-v0
+
+FrozenLake-v1
+python tql_train.py --env_name FrozenLake-v1 --learning_rate 0.2 --gamma 0.6
+
+python tql_test.py --env_name FrozenLake-v1
+
+
+MontainCar
+python dql_train.py --env_name MountainCar-v0 --num_episodes 6000
+
+python dql_test.py --env_name MountainCar-v0
+
+Q3
+Blackjack
+python lql_train.py --env_name Blackjack-v1 --learning_rate 0.3 --gamma 0.7
+python lql_test.py --env_name Blackjack-v1 
+
+CliffWalking-v0
+python lql_train.py --env_name CliffWalking-v0 --learning_rate 0.01 --gamma 0.9
+
+python lql_test.py --env_name CliffWalking-v0
+
+FrozenLake-v1
+python lql_train.py --env_name FrozenLake-v1 --learning_rate 0.2 --gamma 0.6
+
+python lql_test.py --env_name FrozenLake-v1

@@ -9,7 +9,7 @@ if __name__ == "__main__":
     assert args.num_episodes > 0
 
     agent = QLearningAgentLinear.load_agent(args.env_name + "-lql-agent.pkl")
-
+    
     total_actions, total_rewards = 0, 0
 
     for episode in range(args.num_episodes):
